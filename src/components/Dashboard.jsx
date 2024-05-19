@@ -78,7 +78,7 @@ const Dashboard = () => {
           <Typography variant="h6" style={{ flexGrow: 1, textAlign: "center" }}>
             Dashboard
           </Typography>
-          <div color="inherit" onClick={handleLogout}>
+          <div style={{cursor: "pointer"}} color="inherit" onClick={handleLogout}>
             Logout
           </div>
         </Toolbar>
